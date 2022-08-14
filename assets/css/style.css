@@ -2266,6 +2266,11 @@ input[type=radio]:checked+label:after {
 /*==================
 1.5. Colors & Badges
 ====================*/
+
+.bi::before {
+  margin-bottom: 2px !important;
+}
+
 .custom-primary {
   color: var(--accent) !important;
 }
@@ -6450,6 +6455,26 @@ td.remove {
 /* Style 3 */
 .banner-3.sigma_banner .slick-track {
   display: flex;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%; 
+  z-index: 0; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  background: linear-gradient(to right, #2c3e4d 40%, transparent);
+}
+
+.overlay-alternate {
+  width: 100%;
+  height: 100%; 
+  z-index: 0; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  background: linear-gradient(to left, #2c3e4d 40%, transparent);
 }
 
 .banner-3.sigma_banner .slick-slide {
