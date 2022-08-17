@@ -2272,7 +2272,7 @@ input[type=radio]:checked+label:after {
 }
 
 .custom-primary {
-  color: var(--main) !important;
+  color: var(--accent) !important;
 }
 .custom-secondary {
   color: var(--main);
